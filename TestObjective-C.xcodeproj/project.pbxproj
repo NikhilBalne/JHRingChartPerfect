@@ -13,6 +13,8 @@
 		ECB27ACB2359BFF400530A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB27ACA2359BFF400530A5F /* Assets.xcassets */; };
 		ECB27ACE2359BFF400530A5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB27ACC2359BFF400530A5F /* LaunchScreen.storyboard */; };
 		ECB27AD12359BFF400530A5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB27AD02359BFF400530A5F /* main.m */; };
+		ECE225D9235B28D6002DA883 /* JRingChart.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE225D6235B28D5002DA883 /* JRingChart.m */; };
+		ECE225DA235B28D6002DA883 /* JHChart.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE225D8235B28D5002DA883 /* JHChart.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		ECB27ACD2359BFF400530A5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECB27ACF2359BFF400530A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECB27AD02359BFF400530A5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECE225D5235B28D5002DA883 /* JHChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHChart.h; sourceTree = "<group>"; };
+		ECE225D6235B28D5002DA883 /* JRingChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRingChart.m; sourceTree = "<group>"; };
+		ECE225D7235B28D5002DA883 /* JRingChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRingChart.h; sourceTree = "<group>"; };
+		ECE225D8235B28D5002DA883 /* JHChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHChart.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 		ECB27AC02359BFEE00530A5F /* TestObjective-C */ = {
 			isa = PBXGroup;
 			children = (
+				ECE225D5235B28D5002DA883 /* JHChart.h */,
+				ECE225D8235B28D5002DA883 /* JHChart.m */,
+				ECE225D7235B28D5002DA883 /* JRingChart.h */,
+				ECE225D6235B28D5002DA883 /* JRingChart.m */,
 				ECB27AC12359BFEE00530A5F /* AppDelegate.h */,
 				ECB27AC22359BFEE00530A5F /* AppDelegate.m */,
 				ECB27AC42359BFEE00530A5F /* ViewController.h */,
@@ -141,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE225D9235B28D6002DA883 /* JRingChart.m in Sources */,
+				ECE225DA235B28D6002DA883 /* JHChart.m in Sources */,
 				ECB27AC62359BFEE00530A5F /* ViewController.m in Sources */,
 				ECB27AD12359BFF400530A5F /* main.m in Sources */,
 				ECB27AC32359BFEE00530A5F /* AppDelegate.m in Sources */,
@@ -286,7 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7P99J26CUK;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "TestObjective-C/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,7 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7P99J26CUK;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "TestObjective-C/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
